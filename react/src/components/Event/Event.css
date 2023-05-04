@@ -1,0 +1,29 @@
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    'date title title title title button'
+    'date desc desc desc desc desc'
+    'date desc desc desc desc desc'
+    'date desc desc desc desc desc';
+    gap: 20px;
+}
+
+.item1 { grid-area: date; }
+.item2 { grid-area: title; }
+.item3 { 
+    grid-area: button; 
+    height: 30px;
+}
+.item4 { grid-area: desc; }
+
+
+@media only screen and (max-width: 540px) {
+
+     .grid-container {
+        grid-template-areas: 
+        'date'
+        'title'
+        'desc'
+        'button';
+    }
+}

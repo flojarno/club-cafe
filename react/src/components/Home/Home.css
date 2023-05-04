@@ -1,0 +1,19 @@
+.hero {
+    background-image: url('/src/assets/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    height: 60vh;
+}
+
+.event-list {
+    width: 800px;
+}
+
+
+
+@media only screen and (max-width: 540px) {
+
+    .event-list {
+        width:100%;
+    } 
+}

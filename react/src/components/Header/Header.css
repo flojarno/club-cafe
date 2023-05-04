@@ -1,0 +1,10 @@
+.navbar {
+    background-color: #D0750A;
+  }
+
+.brand {
+    font-size: 50px;
+    font-weight: 600;
+    color: #000000;
+    text-decoration: none;
+}
