@@ -17,7 +17,7 @@ Installer npm, React et Bootstrap :
 - npm install -g npm
 - https://symfony.com/doc/current/frontend/encore/reactjs.html
 - npm i bootstrap
-- Changer l'adresse localhost dans le fichier config.json
+- Changer l'adresse localhost dans le fichier config.json ("api": "https://localhost:8000")
 
 Dans le terminal, aller dans le dossier react : cd club_cafe/react
 Lancer la commande : npm run dev, aller à l'adresse indiquée et utiliser les boutons pour accéder aux formulaires
